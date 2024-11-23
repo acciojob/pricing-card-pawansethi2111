@@ -5,8 +5,91 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
+	<style>
+body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
 
+    /* Card container */
+    .card {
+      width: 300px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+
+    /* Image styling */
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    /* Title styling */
+    .card h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    /* Pricing info styling */
+    .card p.price {
+      font-size: 20px;
+      font-weight: bold;
+      color: #27ae60;
+      margin: 10px 0;
+    }
+
+    /* Description styling */
+    .card p.description {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    /* Button styling */
+    .card button {
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .card button:hover {
+      background-color: #2980b9;
+    }
+	</style>
 <body>
+
+	<body>
+  <div class="card">
+    <!-- Image -->
+    <img src="https://th.bing.com/th/id/OIP.fzu9Ca0qSWIQqfou64nSugHaE8?rs=1&pid=ImgDetMain" alt="Product Image">
+    
+    <!-- Title -->
+    <h1>Premium Plan</h1>
+    
+    <!-- Pricing Information -->
+    <p class="price">$49.99/month</p>
+    
+    <!-- Description -->
+    <p class="description">Enjoy unlimited access to premium features with our affordable plan. Sign up today!</p>
+    
+    <!-- Buy Now Button -->
+    <button>Buy Now</button>
+  </div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
